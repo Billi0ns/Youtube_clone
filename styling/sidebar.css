@@ -1,0 +1,95 @@
+.sidebar {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  width: 42.6rem;
+}
+.sidebar__top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.sidebar__top #UpNext {
+  font-size: 1.6rem;
+  margin-right: auto;
+}
+.sidebar__top #Autoplay {
+  font-size: 1.3rem;
+  margin-right: 1rem;
+}
+.sidebar__relatedVideo {
+  display: flex;
+  font-size: 1.3rem;
+  color: #606060;
+  margin-bottom: 0.5rem;
+}
+.sidebar__relatedVideo img {
+  width: 17rem;
+  height: 9.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.sidebar__relatedVideo__songInfo {
+  width: 23rem;
+}
+.sidebar__relatedVideo__songInfo a {
+  text-decoration: none;
+  color: #606060;
+}
+.sidebar__relatedVideo__songInfo .songTitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: black;
+}
+.sidebar__relatedVideo__songInfo .songChannel {
+  margin-bottom: 0.5rem;
+}
+.sidebar__relatedVideo__songInfo > a {
+  display: flex;
+}
+.sidebar__relatedVideo__songInfo > a div {
+  margin-right: 0.3rem;
+}
+
+.autoplay-toggle {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+.autoplay-toggle input {
+  display: none;
+}
+.autoplay-toggle label {
+  position: relative;
+  width: 3.6rem;
+  height: 1.4rem;
+  background: #e3e3e3;
+  border-radius: 1rem;
+}
+.autoplay-toggle label::after {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: -3px;
+  right: 0;
+  border-radius: 50%;
+  background: #1363d1;
+  transition: all 0.3s;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+}
+.autoplay-toggle input:checked + label::after {
+  left: 0;
+  background: #909090;
+}
+
+.bottom-borderline {
+  width: 100%;
+  height: 1px;
+  background: #e0e0e0;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/*# sourceMappingURL=sidebar.css.map */
