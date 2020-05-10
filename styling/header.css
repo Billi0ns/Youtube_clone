@@ -9,10 +9,11 @@ header {
 }
 
 #menu-icon {
-  width: 3.5rem;
-  height: 2.5rem;
-  margin-left: 2rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 2.5rem;
   margin-right: 1rem;
+  fill: #606060;
 }
 
 #youtube-icon {
@@ -53,9 +54,10 @@ header {
   border-radius: 0 3px 3px 0;
   background-color: #f8f8f8;
 }
-.searchbar__btn img {
-  width: 1.5rem;
-  filter: invert(53%) sepia(28%) saturate(16%) hue-rotate(138deg) brightness(96%) contrast(93%);
+.searchbar__btn svg {
+  width: 2rem;
+  height: 2rem;
+  fill: #828282;
 }
 
 .headerRight-btns {
@@ -66,9 +68,10 @@ header {
   background: transparent;
   border: none;
 }
-.headerRight-btns button img {
-  width: 2.7rem;
-  margin: 0.3rem;
+.headerRight-btns button svg {
+  width: 2.4rem;
+  fill: #606060;
+  margin: 0 0.5rem;
 }
 
 #signIn {
@@ -82,9 +85,11 @@ header {
   align-items: center;
   border-radius: 2px;
 }
-#signIn img {
-  width: 3.2rem;
-  margin: 4px;
+#signIn svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  fill: #1363d1;
+  padding: 0 0.5rem;
 }
 #signIn div {
   text-transform: uppercase;

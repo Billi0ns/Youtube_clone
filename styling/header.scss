@@ -13,10 +13,11 @@ header {
 }
 
 #menu-icon {
-    width: 3.5rem;
-    height: 2.5rem;
-    margin-left: 2rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 2.5rem;
     margin-right: 1rem;
+    fill: rgb(96, 96, 96);
 }
 
 #youtube-icon {
@@ -59,10 +60,11 @@ header {
         border-left: none;
         border-radius: 0 3px 3px 0;
         background-color: rgb(248, 248, 248);
-    
-        img {
-            width: 1.5rem;
-            filter: invert(53%) sepia(28%) saturate(16%) hue-rotate(138deg) brightness(96%) contrast(93%);
+
+        svg {
+            width: 2rem;
+            height: 2rem;
+            fill: rgb(130, 130, 130);
         }
     }
 }
@@ -75,9 +77,10 @@ header {
         background: transparent;
         border: none;
 
-        img {
-            width: 2.7rem;
-            margin: 0.3rem;
+        svg {
+            width: 2.4rem;
+            fill: rgb(96, 96, 96);
+            margin: 0 0.5rem;
         }
     }
 }
@@ -93,9 +96,11 @@ header {
     align-items: center;
     border-radius: 2px;
 
-    img {
-       width: 3.2rem;
-       margin: 4px;
+    svg {
+        width: 2.4rem;
+        height: 2.4rem;
+        fill: $blue;
+        padding: 0 0.5rem;
     }
 
     div {
